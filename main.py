@@ -12,6 +12,7 @@ def createParser ():
  
     return parser
 
+
 def shorten_link(token, long_url):
     url = 'https://api-ssl.bitly.com/v4/bitlinks'
     headers = {
