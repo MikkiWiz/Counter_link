@@ -13,6 +13,20 @@ $ pip install -r requirements.txt
 
 Рекомендуется использовать [virtual/venv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
+### Установите необходимые зависимости, указанные в программе:
+
+requests: 
+```
+$ pip install requests
+```
+urllib: pip install urllib3
+dotenv: pip install python-dotenv
+argparse: pip install argparse
+
+Создайте файл с расширением ".env" в том же каталоге, где находится ваша программа.
+
+Откройте файл ".env" и добавьте следующую переменную окружения:
+
 ### Цель проекта
 
 Код написан в образователльных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
