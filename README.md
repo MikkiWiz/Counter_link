@@ -13,24 +13,7 @@ $ pip install -r requirements.txt
 
 Рекомендуется использовать [virtual/venv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
 
-### Установите необходимые зависимости, указанные в программе:
-
-requests: 
-```
-$ pip install requests
-```
-urllib: 
-```
-pip install urllib3
-```
-dotenv: 
-```
-pip install python-dotenv
-```
-argparse: 
-```
-pip install argparse
-```
+### Переменные окружения
 
 Создайте файл с расширением ".env" в том же каталоге, где находится ваша программа.
 
@@ -49,6 +32,16 @@ BITLY_SECRET_KEY=abcdefgh12345678
 Сохраните файл ".env".
 
 Теперь ваше окружение настроено для работы с программой. При запуске программы она будет использовать значение токена Bitly из переменной окружения "BITLY_SECRET_KEY" для выполнения запросов к API Bitly.
+
+### Пример запуска скрипта
+Для сокращения ссылки:
+```
+$ python main.py https://vk.com/
+```
+Для подсчета переходов
+```
+$ python main.py bit.ly/3JCRlA7
+```
 
 ### Цель проекта
 
