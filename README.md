@@ -19,13 +19,36 @@ requests:
 ```
 $ pip install requests
 ```
-urllib: pip install urllib3
-dotenv: pip install python-dotenv
-argparse: pip install argparse
+urllib: 
+```
+pip install urllib3
+```
+dotenv: 
+```
+pip install python-dotenv
+```
+argparse: 
+```
+pip install argparse
+```
 
 Создайте файл с расширением ".env" в том же каталоге, где находится ваша программа.
 
 Откройте файл ".env" и добавьте следующую переменную окружения:
+
+```
+BITLY_SECRET_KEY=<ваш_токен_Bitly>
+```
+Здесь <ваш_токен_Bitly> должен быть заменен на ваш собственный токен Bitly. Токен Bitly можно получить, зарегистрировавшись на сайте Bitly и создав OAuth-токен в настройках вашей учетной записи.
+
+Пример заполнения файла ".env":
+
+```
+BITLY_SECRET_KEY=abcdefgh12345678
+```
+Сохраните файл ".env".
+
+Теперь ваше окружение настроено для работы с программой. При запуске программы она будет использовать значение токена Bitly из переменной окружения "BITLY_SECRET_KEY" для выполнения запросов к API Bitly.
 
 ### Цель проекта
 
