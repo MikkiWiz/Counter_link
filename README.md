@@ -40,7 +40,7 @@ $ python main.py https://vk.com/
 ```
 Для подсчета переходов
 ```
-$ python main.py bit.ly/3JCRlA7
+$ python main.py https://bit.ly/3JCRlA7
 ```
 
 ### Цель проекта
