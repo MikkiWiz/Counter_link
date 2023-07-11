@@ -38,7 +38,7 @@ BITLY_SECRET_KEY=abcdefgh12345678
 ```
 $ python main.py https://vk.com/
 ```
-Для подсчета переходов
+Для подсчета переходов:
 ```
 $ python main.py https://bit.ly/3JCRlA7
 ```
