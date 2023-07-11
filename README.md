@@ -8,7 +8,7 @@ Python3 должен быть уже установлен
 Затем используйте 'pip' для установки зависимостей:
 
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Рекомендуется использовать [virtual/venv](https://docs.python.org/3/library/venv.html) для изоляции проекта.
