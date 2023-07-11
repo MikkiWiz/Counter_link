@@ -6,8 +6,6 @@ import sys
 import argparse
 
 
-load_dotenv(find_dotenv())
-
 def createParser ():
     parser = argparse.ArgumentParser()
     parser.add_argument("url", type=str, help="Введите ссылку для сокращения: ")
@@ -57,7 +55,8 @@ def is_bitlink(token, bitlink):
 
 
 def main():
-
+    load_dotenv(find_dotenv())
+    
     bitly_token = os.getenv('BITLY_SECRET_KEY')
 
     parser = createParser()
@@ -85,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
